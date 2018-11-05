@@ -12,7 +12,7 @@
         <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
     </div>
     <!--logo start-->
-    <a href="${pageContext.request.contextPath}/resources/index.jsp" class="logo"><b>DASH<span>IO</span></b></a>
+    <a href="${pageContext.request.contextPath}/ns?action=index" class="logo"><b>DASH<span>IO</span></b></a>
     <!--logo end-->
     <div class="nav notify-row" id="top_menu">
         <!--  notification start -->
@@ -42,7 +42,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="index.jsp#">
+                        <a href="${pageContext.request.contextPath}/ns?action=index">
                             <div class="task-info">
                                 <div class="desc">Database Update</div>
                                 <div class="percent">60%</div>
@@ -55,7 +55,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="index.jsp#">
+                        <a href="${pageContext.request.contextPath}/ns?action=index">
                             <div class="task-info">
                                 <div class="desc">Product Development</div>
                                 <div class="percent">80%</div>
@@ -68,7 +68,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="index.jsp#">
+                        <a href="${pageContext.request.contextPath}/ns?action=index">
                             <div class="task-info">
                                 <div class="desc">Payments Sent</div>
                                 <div class="percent">70%</div>
